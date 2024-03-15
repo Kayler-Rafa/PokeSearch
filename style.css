@@ -5,18 +5,40 @@ html {
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  margin: 0 auto;
+  width: 70%;
   padding-top: 20%;
+  background-color: #ffdb4c;
+  table-layout: fixed;
+  text-align: center;
+  /* de baixo */
 }
 
 th,
 td {
   border: 1px solid #dddddd;
-  text-align: left;
+  text-align: center;
   padding: 8px;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #ffc905;
+  /* de cima */
 }
 
+.table-container {
+  display: flex;
+  justify-content: center;
+  /* Centraliza horizontalmente */
+}
+
+.hrCustom {
+  width: 70%;
+  /* Define a largura igual à largura da tabela */
+  margin: 0 auto;
+  /* Centraliza horizontalmente */
+  height: 1px;
+  /* Define a altura desejada */
+  background-color: #000000;
+  /* Cor do hr */
+}
