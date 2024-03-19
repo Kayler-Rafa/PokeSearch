@@ -20,7 +20,7 @@ PokéSearch é uma aplicação simples para buscar informações sobre Pokémon 
 
 ## ⬇️Instalação
 
-1. Clone o repositório: `git clone https://github.com/Kayler-Rafa/API-POKEMON.git`
+1. Clone o repositório: `git clone https://github.com/Kayler-Rafa/API-POKEMON.git` ou acesse o website do projeto [PokeSearch](https://dinizpoke-search.vercel.app).
 2. Abra o arquivo `index.html` no seu navegador web.
 
 ## 🕹️Uso
