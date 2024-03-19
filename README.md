@@ -39,5 +39,5 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](L
 ---
 
 <div align="center">
-  <sub>This code is made by [Diniz](https://github.com/Kayler-Rafa)</sub>
+  <sub>This code is made by <a href="https://github.com/Kayler-Rafa">Diniz</a></sub>
 </div>
