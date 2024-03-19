@@ -9,7 +9,7 @@ PokéSearch é uma aplicação simples para buscar informações sobre Pokémon 
 
 ## 📸Screenshot:
 
-![alt text](image-1.png)
+![alt text](screenshot.png)
 
 ## 🔧Tecnologias Utilizadas
 
