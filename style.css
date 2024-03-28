@@ -1,44 +1,87 @@
-html {
-  height: 100%;
-  width: 100%;
+/* Estilos para todos os dispositivos */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffd11a;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-container {
+  max-width: 20%;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-container input[type="text"],
+.input-container button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  /* Tamanho da fonte */
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
 }
 
 table {
   border-collapse: collapse;
-  margin: 0 auto;
-  width: 70%;
-  padding-top: 20%;
+  width: 100%;
   background-color: #ffdb4c;
   table-layout: fixed;
   text-align: center;
-  /* de baixo */
 }
 
 th,
 td {
   border: 1px solid #dddddd;
-  text-align: center;
   padding: 8px;
 }
 
 th {
   background-color: #ffc905;
-  /* de cima */
-}
-
-.table-container {
-  display: flex;
-  justify-content: center;
-  /* Centraliza horizontalmente */
 }
 
 .hrCustom {
-  width: 70%;
-  /* Define a largura igual à largura da tabela */
-  margin: 0 auto;
-  /* Centraliza horizontalmente */
+  width: 100%;
   height: 1px;
-  /* Define a altura desejada */
   background-color: #000000;
-  /* Cor do hr */
+}
+
+/* Estilos para dispositivos menores que 768px (tablets e smartphones) */
+
+@media only screen and (max-width: 767px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-container {
+    max-width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .input-container input[type="text"],
+  .input-container button {
+    width: 100%;
+  }
 }
